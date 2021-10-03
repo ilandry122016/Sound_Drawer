@@ -80,7 +80,7 @@ public:
         double canvasY = 100;
         double canvasSpaceX = getWidth() - 2*canvasX;
         double canvasSpaceY = getHeight() - 2*canvasY;
-        g.fillAll(Colour (0xffffd4ff));
+        g.fillAll(Colour (0xff0504aa));
         g.drawRect(20, 100, canvasSpaceX, canvasSpaceY);
         g.setOpacity(1.0);
         image.clear(Rectangle<int> (image.getWidth(),image.getHeight()),
